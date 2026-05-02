@@ -1,0 +1,1051 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --------------Hero Section-------------------- */
+.hero_section {
+  width: 93%;
+  height: 650px;
+  display: flex;
+  justify-self: center;
+  background-color: #faedeb;
+  justify-content: space-between;
+}
+.hero_text_box {
+  width: 37%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.hero_women_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #645f5e;
+  margin-left: 20px;
+}
+.hero_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 55px;
+  line-height: 77px;
+  font-weight: 600;
+  color: black;
+  margin-left: 20px;
+}
+.hero_button {
+  width: 150px;
+  height: 50px;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  font-weight: 400;
+  border: none;
+  margin-left: 20px;
+}
+.hero_button:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hero_img_box {
+  width: 50%;
+  height: 100%;
+  background-image: url("/images/t_shirt_hero_buble1.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero_img {
+  width: 100%;
+  height: 100%;
+}
+/*---------------- Summer Banner ----------------*/
+.summer_banner {
+  width: 100%;
+  height: 200px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.summer_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #645f5e;
+}
+.summer_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  line-height: 47px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 30px;
+}
+/* --------------Cards Styling------------------ */
+.cards_container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  gap: 15px;
+  justify-self: center;
+}
+/* -----------All Cards Color Boxes and ul Styles------------- */
+.cards__color_boxes {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+.cards_color_box1 {
+  padding: 10px;
+  background-color: black;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box1:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_color_box2 {
+  padding: 10px;
+  background-color: #faedeb;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box2:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_color_box3 {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box3:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_lists {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  list-style: none;
+}
+.cards_li {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 16px;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.cards_li:hover {
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0, 0.6);
+  transition-duration: 0.1s;
+}
+.cards_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 11px;
+  color: #a3a3a3;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 15px;
+}
+.cards_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  line-height: 23px;
+  margin-left: 15px;
+}
+.cards_h1_a {
+  text-decoration: none;
+  color: black;
+}
+.cards_price {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 800;
+  line-height: 15px;
+  margin-left: 15px;
+}
+.cards_pic_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 15px;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 20px;
+  width: 45px;
+  padding: 5px 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.cards_pic_icons {
+  display: none;
+}
+.cards_pic_icons i {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+/* ----------------------Card ONE Styles------------------------ */
+.card_1 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_1_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic02.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_1_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card TWO Styles------------------------ */
+.card_2 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_2_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_2_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card THREE Styles------------------------ */
+.card_3 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_3_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic09.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_3_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card FOUR Styles------------------------ */
+.card_4 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_4_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic08.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_4_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/*------------ Black Pics Styles --------------*/
+.black_pics_container {
+  margin-top: 30px;
+  width: 90%;
+  height: 600px;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+}
+.black_box1 {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.black_box1_img {
+  width: 100%;
+  height: 65%;
+  background-image: url("/images/black_box1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.black_box1_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 20px;
+}
+.black_box1_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  color: black;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: center;
+  margin: 0px 20px;
+}
+.black_box1_btn {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  background-color: black;
+  padding: 15px 25px;
+  margin-top: 5px;
+}
+.black_box1_btn:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.black_box2 {
+  width: 49%;
+  height: 100%;
+  background-image: url("/images/black_box2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* -------------------Transparent Section------------------------- */
+.transparent {
+  margin-top: 100px;
+  width: 93%;
+  height: 700px;
+  background-image: url("/images/t_shirt_transparent1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.transparent_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+.transparent_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 47px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+.transparent_p2 {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+.transparent_btn {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  background-color: black;
+  padding: 15px 25px;
+  margin-top: 15px;
+}
+.transparent_btn:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+/*----------------- Spring Section ------------------*/
+.spring_section {
+  width: 93%;
+  height: 620px;
+  margin-top: 150px;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #faedeb 55%, white 45%);
+}
+.spring_img_box {
+  width: 41%;
+  height: 100%;
+  margin-top: -50px;
+  margin-left: 20px;
+  outline: 1px dotted black;
+  background-image: url("/images/buy_t_shirts_pic08.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.spring_img_box:hover {
+  cursor: pointer;
+  outline: none;
+}
+.spring_text_box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.spring_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+}
+.spring_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  color: black;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0.4px;
+}
+.spring_btn {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  border: none;
+  background-color: black;
+  padding: 15px 25px;
+  margin-top: 15px;
+  width: 200px;
+}
+.spring_btn:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+/*---------------- On Sale Banner ----------------*/
+.on-sale_banner {
+  width: 100%;
+  height: 200px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.on-sale_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #645f5e;
+}
+.on-sale_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  line-height: 47px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 30px;
+}
+/* ------------------Summer Cards----------------- */
+.summer_card_1_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic01.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.summer_card_1_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ------------------Summer Card 2----------------- */
+.summer_card_2_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic05.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.summer_card_2_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ------------------Summer Card 3----------------- */
+.summer_card_3_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic07.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.summer_card_3_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ------------------Summer Card 4----------------- */
+.summer_card_4_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic08.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.summer_card_4_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ------------------Reviews Section-------------- */
+.reviews_section {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.reviews_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  color: black;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: center;
+}
+.reviews_a {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+}
+.reviews_name {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  margin-top: -25px;
+}
+/* ------------------- Last Section Styles----------------- */
+.last_section {
+  width: 90%;
+  height: 580px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.men_box {
+  height: 100%;
+  width: 49%;
+  background-image: url("/images/t_shirt_last_box1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.last_boxes_btn {
+  width: 95%;
+  background-color: rgb(255, 255, 255, 0.8);
+  height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.last_boxes_btn_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 5px;
+}
+.last_boxes_btn_p2 {
+  font-family: Poppins, sans-serif;
+  font-size: 9px;
+  color: black;
+  font-weight: 700;
+  line-height: 13px;
+  color: #787878;
+}
+.last_boxes_btn:hover {
+  background-color: white;
+  transition-duration: 1s;
+}
+.women_box {
+  height: 100%;
+  width: 49%;
+  background-image: url("/images/t_shirt_last_box2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+/* --------------------- Fixed Buttons --------------------- */
+.fixed_buttons {
+  position: fixed;
+  bottom: 330px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fixed_btn_1 {
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.fixed_btn_2 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+/* ----------------------Media Queries--------------------------- */
+@media (max-width: 580px) {
+  /* --------------Hero Section-------------------- */
+  .hero_section {
+    height: auto;
+    flex-direction: column;
+  }
+  .hero_text_box {
+    width: 60%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .hero_h1 {
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+  }
+  .hero_button {
+    width: 150px;
+    height: 40px;
+    padding: 5px 15px;
+  }
+  .hero_img_box {
+    width: 100%;
+    height: 350px;
+    background-size: 80% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero_img {
+    width: 60%;
+    height: 100%;
+  }
+  /*---------------- Summer Banner ----------------*/
+  .summer_banner {
+    height: 130px;
+    gap: 5px;
+  }
+  .summer_h1 {
+    font-size: 29px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  /* --------------Cards Styling------------------ */
+  .cards_container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-self: center;
+    flex-wrap: wrap;
+  }
+  /* -----------All Cards Color Boxes and ul Styles------------- */
+  .cards__color_boxes {
+    gap: 10px;
+  }
+  .cards_lists {
+    flex-wrap: wrap;
+  }
+  .cards_li {
+    font-size: 11px;
+  }
+  .cards_h1 {
+    font-size: 16px;
+  }
+  .cards_price {
+    font-size: 10px;
+  }
+  .cards_pic_icons {
+    display: none;
+  }
+  /* ----------------------Card ONE Styles------------------------ */
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4 {
+    width: 47%;
+    height: 400px;
+    margin-bottom: 15px;
+    gap: 5px;
+  }
+  .card_1_pic {
+    height: 65%;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .card_1_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+  /* ----------------------Card TWO Styles------------------------ */
+
+  .card_2_pic {
+    height: 65%;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .card_2_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+  /* ----------------------Card THREE Styles------------------------ */
+  .card_3_pic {
+    height: 65%;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .card_3_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+  /* ----------------------Card FOUR Styles------------------------ */
+  .card_4_pic {
+    height: 65%;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .card_4_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-top: -35px;
+    margin-right: 0px;
+  }
+  /*------------ Black Pics Styles --------------*/
+  .black_pics_container {
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+  }
+  .black_box1 {
+    width: 100%;
+    height: 500px;
+    gap: 5px;
+  }
+  .black_box1_img {
+    width: 100%;
+    height: 65%;
+    background-size: 100% 100%;
+  }
+  .black_box1_p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .black_box1_h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .black_box2 {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+  }
+  /* -------------------Transparent Section------------------------- */
+  .transparent {
+    margin-top: 20px;
+    height: 500px;
+    background-attachment: scroll;
+    gap: 15px;
+  }
+  .transparent_h1 {
+    font-size: 27px;
+    line-height: 32px;
+    margin: 0px 40px;
+    text-align: center;
+  }
+  .transparent_btn {
+    margin-top: 25px;
+  }
+  /*----------------- Spring Section ------------------*/
+  .spring_section {
+    width: 93%;
+    height: auto;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .spring_img_box {
+    order: 2;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+    outline: none;
+    background-image: url("/images/buy_t_shirts_pic04.jpg");
+    background-size: 100% 100%;
+  }
+  .spring_img_box:hover {
+    cursor: pointer;
+    outline: none;
+  }
+  .spring_text_box {
+    width: 95%;
+    height: 350px;
+    margin-left: 30px;
+  }
+  .spring_h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .spring_btn {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    border: none;
+    background-color: black;
+    padding: 15px 20px;
+    margin-top: 15px;
+    width: 200px;
+  }
+  .spring_btn:hover {
+    color: #b0b0b0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  /*---------------- On Sale Banner ----------------*/
+  .on-sale_banner {
+    width: 100%;
+    height: 120px;
+    gap: 5px;
+  }
+  .on-sale_h1 {
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+  /* ------------------Summer Cards----------------- */
+  .summer_card_1_pic {
+    height: 65%;
+    width: 100%;
+    background-image: url("/images/buy_t_shirts_pic01.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .summer_card_1_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-right: 0px;
+    margin-top: -40px;
+  }
+  /* ------------------Summer Card 2----------------- */
+  .summer_card_2_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-right: 0px;
+    margin-top: -40px;
+    transition-duration: 0.7s;
+  }
+  /* ------------------Summer Card 3----------------- */
+  .summer_card_3_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-right: 0px;
+    margin-top: -40px;
+    transition-duration: 0.7s;
+  }
+  /* ------------------Summer Card 4----------------- */
+  .summer_card_4_pic:hover .cards_pic_icons {
+    gap: 5px;
+    margin-right: 0px;
+    margin-top: -40px;
+    transition-duration: 0.7s;
+  }
+  /* ------------------Reviews Section-------------- */
+  .reviews_section {
+    height: 300px;
+    gap: 20px;
+  }
+  .reviews_h1 {
+    font-size: 27px;
+    line-height: 37px;
+  }
+  .reviews_a {
+    font-size: 15px;
+  }
+  .reviews_name {
+    margin-top: -15px;
+  }
+  /* ------------------- Last Section Styles----------------- */
+  .last_section {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .men_box {
+    height: 250px;
+  }
+  .last_boxes_btn_p1 {
+    font-size: 11px;
+  }
+  .women_box {
+    height: 250px;
+  }
+}

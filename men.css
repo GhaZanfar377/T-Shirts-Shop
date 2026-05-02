@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------------------- Top Header Styles ---------------------*/
+.top_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  line-height: 21px;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.top_p a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+.top_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 55px;
+  color: black;
+  font-weight: 500;
+  line-height: 77px;
+  margin-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.showing_results_p {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  line-height: 21px;
+}
+#select_sorting {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+  line-height: 21px;
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+}
+#select_sorting:focus {
+  border: 1px solid rgb(119, 119, 119);
+  outline: none;
+}
+/* ----------------------Picture Container Styles--------------------------- */
+.picture_container {
+  width: 95%;
+  height: auto;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 16px;
+}
+/* ----------------------All Cards Color Boxes and ul Styles------------------------ */
+.cards__color_boxes {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+.cards_color_box1 {
+  padding: 10px;
+  background-color: black;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box1:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_color_box2 {
+  padding: 10px;
+  background-color: #faedeb;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box2:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_color_box3 {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+}
+.cards_color_box3:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(0, 0, 0, 0.4);
+  outline-offset: 2px;
+  transition-duration: 0.3s;
+}
+.cards_lists {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  list-style: none;
+}
+.cards_li {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 16px;
+  border: 1px solid rgb(163, 163, 163, 0.4);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.cards_li:hover {
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0, 0.6);
+  transition-duration: 0.1s;
+}
+.cards_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 11px;
+  color: #a3a3a3;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 15px;
+}
+.cards_h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  line-height: 23px;
+  margin-left: 15px;
+}
+.cards_h1_a {
+  text-decoration: none;
+  color: black;
+}
+.cards_price {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 800;
+  line-height: 15px;
+  margin-left: 15px;
+}
+.cards_pic_p1 {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 15px;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 20px;
+  width: 45px;
+  padding: 5px 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.cards_pic_icons {
+  display: none;
+}
+.cards_pic_icons i {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+/* ----------------------Card ONE Styles------------------------ */
+.card_1 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_1_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic02.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_1_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card TWO Styles------------------------ */
+.card_2 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_2_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_2_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card THREE Styles------------------------ */
+.card_3 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_3_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic05.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_3_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card FOUR Styles------------------------ */
+.card_4 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_4_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic07.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_4_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: -20px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* ----------------------Card FIVE Styles------------------------ */
+.card_5 {
+  width: 24%;
+  height: 550px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_5_pic {
+  height: 65%;
+  width: 100%;
+  background-image: url("/images/buy_t_shirts_pic09.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card_5_pic:hover .cards_pic_icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: end;
+  margin-right: 20px;
+  margin-top: 25px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+/* --------------------- Fixed Buttons --------------------- */
+.fixed_buttons {
+  position: fixed;
+  bottom: 330px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fixed_btn_1 {
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.fixed_btn_2 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+@media (max-width: 580px) {
+  /* ------------------- Top Header Styles ---------------------*/
+  .top_p {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    margin-top: 60px;
+  }
+  .top_p a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+  }
+  .top_h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+  }
+  .top_header {
+    margin-top: 25px;
+  }
+  .showing_results_p {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    line-height: 21px;
+  }
+  #select_sorting {
+    display: none;
+  }
+  #select_sorting:focus {
+    border: 1px solid rgb(119, 119, 119);
+    outline: none;
+  }
+  .card_1,
+  .card_2,
+  .card_3,
+  .card_4,
+  .card_5,
+  .card_6,
+  .card_7,
+  .card_8,
+  .card_9,
+  .card_10 {
+    width: 48%;
+    height: 450px;
+  }
+  .card_1_pic,
+  .card_2_pic,
+  .card_3_pic,
+  .card_4_pic,
+  .card_5_pic,
+  .card_6_pic,
+  .card_7_pic,
+  .card_8_pic,
+  .card_9_pic,
+  .card_10_pic {
+    background-size: 100% 100%;
+    height: 58%;
+  }
+  .card_5_pic:hover .cards_pic_icons,
+  .card_1_pic:hover .cards_pic_icons, 
+  .card_2_pic:hover .cards_pic_icons {
+    margin-top: 15px;
+    gap: 5px;
+    margin-right: 5px;
+  }
+  .card_3_pic:hover .cards_pic_icons, 
+  .card_4_pic:hover .cards_pic_icons {
+    margin-top: -30px;
+    gap: 5px;
+    margin-right: 5px;
+  }
+  .cards_p1 {
+    font-size: 10px;
+  }
+  .cards_h1 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .cards_price {
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .cards_price {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
