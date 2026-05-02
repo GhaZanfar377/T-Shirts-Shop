@@ -86,8 +86,7 @@ header {
   .header_ul {
     order:2;
     list-style: none;
-    gap: 15px;
-    margin-left: 20px;
+    gap: 10px;
   }
   .header_a {
   font-size: 9px;
@@ -106,7 +105,8 @@ header {
   .header__icons {
     display: flex;
     gap: 60px;
-    margin-right:10px;
+    margin-left: 20px;
+    margin-right:5px;
     order: 2;
   }
   .header__icon1 {
