@@ -6,9 +6,9 @@
 *body {
   background-color: white;
 }
-body::selection{
+body::selection {
   background-color: black;
-  color:white;
+  color: white;
 }
 /*----------------- About Hero Section -----------------------*/
 .about_hero {
