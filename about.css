@@ -335,4 +335,9 @@
   footer {
     margin-top: -80px;
   }
+  .fixed_btn_1,
+  .fixed_btn_2 {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
 }

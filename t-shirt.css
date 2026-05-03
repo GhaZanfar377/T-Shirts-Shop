@@ -1048,4 +1048,9 @@
   .women_box {
     height: 250px;
   }
+  .fixed_btn_1,
+  .fixed_btn_2 {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
 }

@@ -284,22 +284,28 @@ iframe{
     display: flex;
     flex-direction: column;
     gap:40px;
+    align-items: center;
 }
+.fixed_btn_1,
+.fixed_btn_2 {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
 .name_input{
-    width:400px;
+    width:95%;
     height:auto;
     padding: 10px;
 }
 .second_input{
-    width: 400px;
+    width: 95%;
     height: auto;
     padding: 10px;
 }
 .text_area{
-    width: 400px;
+    width: 95%;
 }
 .card_2_btn{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 5px;
 }
 iframe{
