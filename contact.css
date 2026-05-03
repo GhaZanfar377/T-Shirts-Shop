@@ -281,6 +281,7 @@ iframe{
     margin-left: 15px;
 }
 .name_inputs_container{
+    width:95%;
     display: flex;
     flex-direction: column;
     gap:40px;
@@ -292,7 +293,7 @@ iframe{
     font-size: 13px;
   }
 .name_input{
-    width:95%;
+    width:100%;
     height:auto;
     padding: 10px;
 }
