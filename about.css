@@ -6,6 +6,10 @@
 *body {
   background-color: white;
 }
+body::selection{
+  background-color: black;
+  color:white;
+}
 /*----------------- About Hero Section -----------------------*/
 .about_hero {
   width: 100%;

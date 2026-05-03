@@ -6,6 +6,10 @@
 *body {
   background-color: rgb(255,255,255,0.7);
 }
+body::selection{
+  background-color: black;
+  color:white;
+}
 /*----------------- Contact Hero Section -----------------------*/
 .contact_hero {
   width: 100%;

@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body::selection{
+  background-color: black;
+  color:white;
+}
 /* ------------------- Top Header Styles ---------------------*/
 .top_p {
   font-family: Poppins, sans-serif;

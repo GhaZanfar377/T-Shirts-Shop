@@ -5,6 +5,10 @@
 body {
   background-color: white;
 }
+body::selection{
+  background-color: black;
+  color:white;
+}
 header {
   width: 100%;
   height: 80px;
