@@ -391,6 +391,9 @@
     gap:0px;
     justify-content: space-between;
   }
+  .cards_lists{
+    flex-wrap: wrap;
+  }
   .card_1,
   .card_2,
   .card_3,
