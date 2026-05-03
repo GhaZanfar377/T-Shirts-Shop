@@ -86,7 +86,7 @@ header {
   .header_ul {
     order:2;
     list-style: none;
-    gap: 15px;
+    gap: 10px;
     margin-left: 5px;
   }
   .header_a {
@@ -99,7 +99,7 @@ header {
 }
   .header_logo {
     height: 80%;
-    width: 100px;
+    width:80px;
     order: 1;
     margin-left: 10px;
   }
