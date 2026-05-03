@@ -191,6 +191,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
+.card_1:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .card_1_pic {
   height: 65%;
   width: 100%;
@@ -218,6 +223,11 @@ body::selection{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_2:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 .card_2_pic {
   height: 65%;
@@ -247,6 +257,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
+.card_3:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .card_3_pic {
   height: 65%;
   width: 100%;
@@ -275,6 +290,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
+.card_4:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .card_4_pic {
   height: 65%;
   width: 100%;
@@ -302,6 +322,11 @@ body::selection{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_5:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 .card_5_pic {
   height: 65%;

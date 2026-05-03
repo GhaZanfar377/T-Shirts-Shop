@@ -226,6 +226,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
+.card_1:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .card_1_pic {
   height: 65%;
   width: 100%;
@@ -253,6 +258,11 @@ body::selection{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_2:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 .card_2_pic {
   height: 65%;
@@ -282,6 +292,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
+.card_3:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .card_3_pic {
   height: 65%;
   width: 100%;
@@ -309,6 +324,11 @@ body::selection{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_4:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 .card_4_pic {
   height: 65%;
@@ -345,6 +365,11 @@ body::selection{
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+.black_box1:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 .black_box1_img {
   width: 100%;
@@ -393,6 +418,11 @@ body::selection{
   background-image: url("/images/black_box2.jpg");
   background-position: center;
   background-size: cover;
+}
+.black_box2:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 /* -------------------Transparent Section------------------------- */
 .transparent {
@@ -681,6 +711,11 @@ body::selection{
   align-items: end;
   justify-content: center;
 }
+.men_box:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
+}
 .last_boxes_btn {
   width: 95%;
   background-color: rgb(255, 255, 255, 0.8);
@@ -718,6 +753,11 @@ body::selection{
   display: flex;
   align-items: end;
   justify-content: center;
+}
+.women_box:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.7s;
+  box-shadow: 0px 5px 5px grey;
 }
 /* --------------------- Fixed Buttons --------------------- */
 .fixed_buttons {
