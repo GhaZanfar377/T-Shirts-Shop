@@ -110,6 +110,9 @@ header {
     margin-right:5px;
     order: 3;
   }
+  .header__icon2 {
+    font-size: 13px;
+  }
   .header__icon1 {
     display: none;
   }
