@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body::selection{
+body::selection {
   background-color: black;
-  color:white;
+  color: white;
 }
 /* --------------Hero Section-------------------- */
 .hero_section {
@@ -226,7 +226,7 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
-.card_1:hover{
+.card_1:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -259,7 +259,7 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
-.card_2:hover{
+.card_2:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -292,7 +292,7 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
-.card_3:hover{
+.card_3:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -325,7 +325,7 @@ body::selection{
   flex-direction: column;
   gap: 10px;
 }
-.card_4:hover{
+.card_4:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -366,7 +366,7 @@ body::selection{
   gap: 10px;
   align-items: center;
 }
-.black_box1:hover{
+.black_box1:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -419,7 +419,7 @@ body::selection{
   background-position: center;
   background-size: cover;
 }
-.black_box2:hover{
+.black_box2:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -711,7 +711,7 @@ body::selection{
   align-items: end;
   justify-content: center;
 }
-.men_box:hover{
+.men_box:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
@@ -754,7 +754,7 @@ body::selection{
   align-items: end;
   justify-content: center;
 }
-.women_box:hover{
+.women_box:hover {
   transform: translateY(-5px);
   transition-duration: 0.7s;
   box-shadow: 0px 5px 5px grey;
