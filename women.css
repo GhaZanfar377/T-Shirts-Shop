@@ -187,6 +187,11 @@
   flex-direction: column;
   gap: 10px;
 }
+.card_1:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
+}
 .card_1_pic {
   height: 65%;
   width: 100%;
@@ -214,6 +219,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_2:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 .card_2_pic {
   height: 65%;
@@ -243,6 +253,11 @@
   flex-direction: column;
   gap: 10px;
 }
+.card_3:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
+}
 .card_3_pic {
   height: 65%;
   width: 100%;
@@ -271,6 +286,11 @@
   flex-direction: column;
   gap: 10px;
 }
+.card_4:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
+}
 .card_4_pic {
   height: 65%;
   width: 100%;
@@ -298,6 +318,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_5:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 .card_5_pic {
   height: 65%;

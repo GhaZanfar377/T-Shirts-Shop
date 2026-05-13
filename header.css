@@ -86,7 +86,7 @@ header {
   .header_ul {
     order:2;
     list-style: none;
-    gap: 10px;
+    gap: 5px;
   }
   .header_a {
   font-size: 9px;

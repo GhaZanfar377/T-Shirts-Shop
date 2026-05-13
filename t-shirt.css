@@ -222,6 +222,11 @@
   flex-direction: column;
   gap: 10px;
 }
+.card_1:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-10px)
+}
 .card_1_pic {
   height: 65%;
   width: 100%;
@@ -249,6 +254,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_2:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 .card_2_pic {
   height: 65%;
@@ -285,6 +295,11 @@
   background-position: center;
   background-size: cover;
 }
+.card_3:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
+}
 .card_3_pic:hover .cards_pic_icons {
   align-self: flex-end;
   display: flex;
@@ -305,6 +320,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.card_4:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 .card_4_pic {
   height: 65%;
@@ -341,6 +361,11 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+.black_box1:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 .black_box1_img {
   width: 100%;
@@ -389,6 +414,11 @@
   background-image: url("/images/black_box2.jpg");
   background-position: center;
   background-size: cover;
+}
+.black_box2:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-5px)
 }
 /* -------------------Transparent Section------------------------- */
 .transparent {
@@ -677,6 +707,11 @@
   align-items: end;
   justify-content: center;
 }
+.men_box:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-10px)
+}
 .last_boxes_btn {
   width: 95%;
   background-color: rgb(255, 255, 255, 0.8);
@@ -714,6 +749,11 @@
   display: flex;
   align-items: end;
   justify-content: center;
+}
+.women_box:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.7s;
+  transform: translateY(-10px)
 }
 /* --------------------- Fixed Buttons --------------------- */
 .fixed_buttons {
