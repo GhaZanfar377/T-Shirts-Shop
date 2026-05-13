@@ -6,10 +6,6 @@
 *body {
   background-color: white;
 }
-body::selection {
-  background-color: black;
-  color: white;
-}
 /*----------------- About Hero Section -----------------------*/
 .about_hero {
   width: 100%;
@@ -209,7 +205,7 @@ body::selection {
 /* --------------------- Fixed Buttons --------------------- */
 .fixed_buttons {
   position: fixed;
-  bottom: 330px;
+  bottom: 200px;
   right: 0px;
   display: flex;
   flex-direction: column;
@@ -338,10 +334,5 @@ body::selection {
   }
   footer {
     margin-top: -80px;
-  }
-  .fixed_btn_1,
-  .fixed_btn_2 {
-    padding: 10px 14px;
-    font-size: 13px;
   }
 }
