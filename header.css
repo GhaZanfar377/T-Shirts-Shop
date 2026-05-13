@@ -83,10 +83,14 @@ header {
 }
 /* --------------------MEDIA QUERY----------------- */
 @media only screen and (max-width: 580px) {
+  header{
+    gap:20px;
+  }
   .header_ul {
     order:2;
     list-style: none;
     gap: 5px;
+    margin-left: 0px;
   }
   .header_a {
   font-size: 9px;
