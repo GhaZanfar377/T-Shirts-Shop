@@ -113,6 +113,11 @@ header {
     margin-right:10px;
     order: 2;
   }
+  .header__icon2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+  }
   .header__icon1 {
     display: none;
   }
