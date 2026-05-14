@@ -89,7 +89,7 @@ header {
   .header_ul {
     order:2;
     list-style: none;
-    gap: 8px;
+    gap: 5px;
     margin-left: 0px;
   }
   .header_a {
