@@ -859,6 +859,9 @@
   .cards_pic_icons {
     display: none;
   }
+  .cards_lists{
+    flex-wrap: wrap;
+  }
   /* ----------------------Card ONE Styles------------------------ */
   .card_1,
   .card_2,
