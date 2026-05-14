@@ -1091,4 +1091,7 @@
   .women_box {
     height: 250px;
   }
+  .fixed_buttons{
+    bottom:400px;
+  }
 }

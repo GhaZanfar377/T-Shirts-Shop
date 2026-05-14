@@ -464,4 +464,7 @@
   .cards_lists{
     flex-wrap: wrap;
   }
+  .fixed_buttons{
+    bottom:400px;
+  }
 }
