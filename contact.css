@@ -299,13 +299,13 @@ iframe{
     padding: 10px;
 }
 .second_input{
-    width: 390px;
+    width: 90%;
     height: auto;
     padding: 10px;
     margin-left: 0px;
 }
 .text_area{
-    width: 390px;
+    width: 90%;
     margin-left: 0px;
 }
 .card_2_btn{
