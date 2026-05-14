@@ -283,27 +283,33 @@ iframe{
     width:95%;
     height:auto;
     margin-left: 15px;
+    margin-bottom: 30px;
 }
 .name_inputs_container{
     display: flex;
     flex-direction: column;
     gap:40px;
+    align-items: center;
+    width:90%;
+    margin-left: 0px;
 }
 .name_input{
-    width:400px;
+    width:100%;
     height:auto;
     padding: 10px;
 }
 .second_input{
-    width: 400px;
+    width: 390px;
     height: auto;
     padding: 10px;
+    margin-left: 0px;
 }
 .text_area{
-    width: 400px;
+    width: 390px;
+    margin-left: 0px;
 }
 .card_2_btn{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 5px;
 }
 iframe{
