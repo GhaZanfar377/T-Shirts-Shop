@@ -84,7 +84,7 @@ header {
 /* --------------------MEDIA QUERY----------------- */
 @media only screen and (max-width: 580px) {
   header{
-    gap:10px;
+    gap:20px;
   }
   .header_ul {
     order:2;
@@ -108,9 +108,9 @@ header {
   }
   .header__icons {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-left: 0px;
-    margin-right:5px;
+    margin-right:10px;
     order: 2;
   }
   .header__icon1 {

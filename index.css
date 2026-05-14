@@ -1060,4 +1060,7 @@
     font-size: 14px;
     padding: 5px 15px;
   }
+  .cards_lists{
+    flex-wrap: wrap;
+  }
 }
